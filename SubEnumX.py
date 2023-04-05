@@ -62,14 +62,13 @@ def combine_subdomains():
     crt_output = os.path.join(result_dir, f'{domain}.crt.txt')  # Añade esta línea
     subdomains_output = os.path.join(result_dir, f'{domain}.subdomains.txt')
 
-    subdomain_files = [amass_output, subfinder_output, assetfinder_output, findomain_output, crt_output]  # Añade crt_output aquí
+    subdomain_files = [amass_output, subfinder_output, assetfinder_output, findomain_output, crt_output] 
     unique_subdomains = set()
 
     for file in subdomain_files:
         with open(file, 'r') as f:
             lines = f.readlines()
             for line in lines:
-                # Eliminar todo lo que esté entre corchetes
                 line = re.sub(r'\[.*?\]', '', line).strip()
                 if line:
                     unique_subdomains.add(line)
