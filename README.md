@@ -20,7 +20,7 @@ This script automates the process of subdomain enumeration and scanning using se
 1. Clone this repository
 
 ```
-git clone https://github.com/yourusername/automated-subdomain-enumeration.git
+git clone https://github.com/TaurusOmar/SubEnumX.git
 
 ```
 
