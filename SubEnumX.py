@@ -59,7 +59,7 @@ def combine_subdomains():
     subfinder_output = os.path.join(result_dir, f'subfinder_{domain}.txt')
     assetfinder_output = os.path.join(result_dir, f'assetfinder_{domain}.txt')
     findomain_output = os.path.join(result_dir, f'findomain_{domain}.txt')
-    crt_output = os.path.join(result_dir, f'{domain}.crt.txt')  # Añade esta línea
+    crt_output = os.path.join(result_dir, f'{domain}.crt.txt') 
     subdomains_output = os.path.join(result_dir, f'{domain}.subdomains.txt')
 
     subdomain_files = [amass_output, subfinder_output, assetfinder_output, findomain_output, crt_output] 
@@ -116,7 +116,7 @@ def scan_httpx():
 
     with open(sorted_httpx_output, 'w') as f:
         for line in sorted_lines:
-            url = line.split()[0].replace("https://", "").replace("http://", "")  # Modifica esta línea
+            url = line.split()[0].replace("https://", "").replace("http://", "") 
             f.write(url + '\n')
 
     print(f"Sorted httpx results written to: {sorted_httpx_output}")
