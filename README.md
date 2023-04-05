@@ -41,7 +41,7 @@ Make sure all these tools are in your system's **`PATH`**.
 ## **Usage**
 
 ```
-python3 master_script.py <domain> <resolvers_list>
+python3 SubEnumX.py <domain> <resolvers_list>
 
 ```
 
