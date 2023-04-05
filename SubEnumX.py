@@ -11,7 +11,7 @@ from datetime import datetime
 if len(sys.argv) < 3:
     print("2nd argument not supplied")
     print("2nd argument is the resolver file list path")
-    print("Usage : ./master_script.py domain resolvers_list")
+    print("Usage : python3 SubEnumX.py domain resolvers_list")
     sys.exit(1)
 
 domain = sys.argv[1]
