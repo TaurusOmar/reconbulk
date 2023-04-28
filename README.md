@@ -17,10 +17,10 @@ This script automates the process of subdomain enumeration and scanning using se
 
 ## **Installation**
 
-1. Clone this repository
+1. If you have Go installed and configured (i.e. with $GOPATH/bin in your $PATH):
 
 ```
-git clone https://github.com/TaurusOmar/SubEnumX.git
+go install github.com/TaurusOmar/reconbulk@latest
 
 ```
 
@@ -41,7 +41,7 @@ Make sure all these tools are in your system's **`PATH`**.
 ## **Usage**
 
 ```
-python3 SubEnumX.py <domain> <resolvers_list>
+reconbulk <domain> <resolvers_list>
 
 ```
 
