@@ -17,6 +17,27 @@ import (
 	"time"
 )
 
+func printBanner() {
+	fmt.Println(`
+______                    ______       _ _    
+| ___ \                   | ___ \     | | |   
+| |_/ /___  ___ ___  _ __ | |_/ /_   _| | | __
+|    // _ \/ __/ _ \| '_ \| ___ \ | | | | |/ /
+| |\ \  __/ (_| (_) | | | | |_/ / |_| | |   < 
+\_| \_\___|\___\___/|_| |_\____/ \__,_|_|_|\_\
+                                              
+                                              
+					V.1.0 
+					Taurus Omar`)
+	                                                                          
+	fmt.Println()
+}
+
+func banner() {
+	printBanner()
+
+}
+
 var (
 	amassProcess, subfinderProcess, assetfinderProcess, findomainProcess *os.Process
 )
@@ -287,6 +308,7 @@ func main() {
 	    findomainProcess.Wait()
 	}
 
+	printBanner()
 	scanCRT(domain, resultDir) 
 	combineSubdomains(domain, resultDir)
 	findIPs(domain, resolversFile, resultDir)
