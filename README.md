@@ -1,4 +1,4 @@
-# SubEnumX
+# ReconBulk
 ## Automated Subdomain Enumeration and Scanning Tool
 
 ![Untitled](https://github.com/TaurusOmar/SubEnumX/blob/main/SubEnumX-4.png?raw=true)
