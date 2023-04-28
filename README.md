@@ -15,6 +15,33 @@ This script automates the process of subdomain enumeration and scanning using se
 - Scans subdomains with Nuclei for potential vulnerabilities
 - Organizes results in a structured directory
 
+## **File Structure**
+
+```
+recon/
+└── results/
+└── example.com-<timestamp>/
+├── amass_example.com/
+│   ├── config.ini
+│   ├── db/
+│   ├── named/
+│   └── notes.md
+├── amass_example.com.txt
+├── assetfinder_example.com.txt
+├── findomain_example.com.txt
+├── httpx_example.com.txt
+├── naabu_example.com.txt
+├── nuclei_example.com.txt
+├── subdomains/
+│   ├── amass_example.com.txt
+│   ├── assetfinder_example.com.txt
+│   ├── crt.sh.txt
+│   ├── findomain_example.com.txt
+│   ├── subfinder_example.com.txt
+│   └── unique_subdomains.txt
+└── subfinder_example.com.txt
+```
+
 ## **Installation**
 
 1. If you have Go installed and configured (i.e. with $GOPATH/bin in your $PATH):
