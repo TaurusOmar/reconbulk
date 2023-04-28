@@ -67,6 +67,9 @@ recon/
 └── subfinder_example.com.txt
 ```
 
+![image](https://github.com/TaurusOmar/reconbulk/blob/main/reconBulk.gif?raw=true)
+
+
 ## **Installation**
 
 1. If you have Go installed and configured (i.e. with $GOPATH/bin in your $PATH):
