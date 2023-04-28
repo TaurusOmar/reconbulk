@@ -1,7 +1,32 @@
 # ReconBulk
 ## Automated Subdomain Enumeration and Scanning Tool
 
-![Untitled](https://raw.githubusercontent.com/TaurusOmar/reconbulk/main/reconBulk.png)
+```console
+______                    ______       _ _
+| ___ \                   | ___ \     | | |
+| |_/ /___  ___ ___  _ __ | |_/ /_   _| | | __
+|    // _ \/ __/ _ \| '_ \| ___ \ | | | | |/ /
+| |\ \  __/ (_| (_) | | | | |_/ / |_| | |   <
+\_| \_\___|\___\___/|_| |_\____/ \__,_|_|_|\_\
+
+
+					V.1.0
+					Taurus Omar
+
+Scanning crt.sh...
+
+Target ==> projectdiscovery.io
+
+Searching in the CertSpotter API... 🔍
+Searching in the Crtsh database API... 🔍
+Searching in the Threatcrowd API... 🔍
+Searching in the AnubisDB API... 🔍
+Searching in the Urlscan.io API... 🔍
+Searching in the Threatminer API... 🔍
+Searching in the Sublist3r API... 🔍
+Searching in the Archive.org API... 🔍
+```
+  
 
 This script automates the process of subdomain enumeration and scanning using several popular open-source tools, combining their results and providing detailed output. The primary purpose of this tool is to simplify and streamline the process of discovering subdomains and their related information for a given domain.
 
