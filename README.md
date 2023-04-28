@@ -97,6 +97,3 @@ The output directory will contain the following files:
 
 This tool is intended for educational purposes and legal use only. The authors and contributors are not responsible for any misuse, damage, or legal consequences caused by the use of this tool. Please use responsibly.
 
-## **License**
-
-This project is licensed under the MIT License - see the **[LICENSE]** file for details.
