@@ -1,7 +1,7 @@
 # ReconBulk
 ## Automated Subdomain Enumeration and Scanning Tool
 
-![Untitled](https://github.com/TaurusOmar/SubEnumX/blob/main/SubEnumX-4.png?raw=true)
+![Untitled](https://raw.githubusercontent.com/TaurusOmar/reconbulk/main/reconBulk.png)
 
 This script automates the process of subdomain enumeration and scanning using several popular open-source tools, combining their results and providing detailed output. The primary purpose of this tool is to simplify and streamline the process of discovering subdomains and their related information for a given domain.
 
