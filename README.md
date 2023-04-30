@@ -39,6 +39,8 @@ This script automates the process of subdomain enumeration and scanning using se
 - Scans subdomains with Naabu to find open ports
 - Scans subdomains with Nuclei for potential vulnerabilities
 - Organizes results in a structured directory
+- The tool follows a logical structure to gather the subdomains and information from each tool to be used by the next one.
+- Postive httpx subdomains are used for scanning by Nuclei.
 
 ## **File Structure**
 
