@@ -275,7 +275,7 @@ func main() {
 	if len(os.Args) < 3 {
 		fmt.Println("2nd argument not supplied")
 		fmt.Println("2nd argument is the resolver file list path")
-		fmt.Println("Usage : ./SubEnumX domain resolvers_list")
+		fmt.Println("Usage : ./reconbulk domain resolvers_list")
 		os.Exit(1)
 	}
 
