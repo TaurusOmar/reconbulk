@@ -66,7 +66,7 @@ func startAmass(domain, resolversFile, resultDir string) *exec.Cmd {
     amassDir := filepath.Join(resultDir, fmt.Sprintf("%s_amass", domain))
     err := os.MkdirAll(amassDir, 0755)
     checkErr(err)
-    cmd := exec.Command("amass", "enum", "-passive", "-d", domain, "-src", "-dir", amassDir, "-o", amassOutput, "-rf", resolversFile)
+    cmd := exec.Command("amass", "enum", "-passive", "-d", domain, "-dir", amassDir, "-o", amassOutput, "-rf", resolversFile)
     showOutputInRealTime(cmd)
     return cmd
 }
